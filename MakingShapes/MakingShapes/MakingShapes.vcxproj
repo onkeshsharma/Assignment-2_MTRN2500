@@ -18,6 +18,41 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MakingShapes.cpp" />
+    <ClCompile Include="Messages.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="ObstacleManager.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="RemoteDataManager.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="VectorMaths.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="Frustum.hpp" />
+    <ClInclude Include="Ground.hpp" />
+    <ClInclude Include="HUD.hpp" />
+    <ClInclude Include="KeyManager.hpp" />
+    <ClInclude Include="Messages.hpp" />
+    <ClInclude Include="Obstacle.hpp" />
+    <ClInclude Include="ObstacleManager.hpp" />
+    <ClInclude Include="Quaternion.hpp" />
+    <ClInclude Include="RemoteDataManager.hpp" />
+    <ClInclude Include="Shape.hpp" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="VectorMaths.hpp" />
+    <ClInclude Include="Vehicle.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E0863032-36C1-40FE-8985-3ED5170E8F3F}</ProjectGuid>
@@ -149,46 +184,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Camera.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Frustum.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Ground.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\HUD.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\KeyManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Messages.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Obstacle.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\ObstacleManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Quaternion.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\RemoteDataManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Shape.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\VectorMaths.hpp" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Vehicle.hpp" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Camera.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Frustum.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Ground.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\HUD.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\KeyManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Messages.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Obstacle.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\ObstacleManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Quaternion.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\RemoteDataManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Shape.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\VectorMaths.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Assignment 2\OpenGLfiles\Vehicle.cpp" />
-    <ClCompile Include="MakingShapes.cpp" />
-    <ClCompile Include="stdafx.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
